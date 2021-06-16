@@ -1,0 +1,40 @@
+body {
+	height:100%;
+}
+
+header {
+	
+	display:block;
+	background:#B59339;
+	padding:10px 0px;
+}
+section {
+	width: 79%;
+	background: #E3E0D8;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+aside {
+	float: right;
+	border: 1px solid brown;
+	width: 19%;
+	border: 1px solid br;
+	/Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden/
+	/visibility: hidden;/
+}
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 40px; 
+	padding:5px 0px;
+	clear: both;
+	background: #B59339;
+	text-align: center;
+	color: #fff;
+}
+figure {
+	display: table; margin: 0 auto;
+}
